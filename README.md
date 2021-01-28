@@ -12,10 +12,10 @@ In this fileds WiTJiRMUs1tWWiY0WTJOYW1NRGxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 6. Back to the video page with development tools, use m3u8 to filter; then you will get the url and the Cookies, input the Cookies into dl.sh
 7. Run `bash dl.sh`, you will be notice to input url and filename you want to save,  just copy and paste. This will downlod all ts files and paste into a full ts file, you just need to wait, it will be decode by self.
 8. Go to Downloads directory to find your video.
+9. Just enjoy it!
 
 > Tips:
-Cookies and key can expired with unkown time, if you can't download or decode the ts file, you'd better check your Cookies and key.
-Just enjoy it!
+Cookies and key can be expired with unkown time, if you can't download or decode the ts file, you'd better check your Cookies and key.
 
 > Note:
 This shell script only tested with my courses.
