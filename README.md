@@ -3,10 +3,13 @@
 1. You must bought the courses;
 2. Login your 51cto account with Google Chrome for Firefox, play the video you want to download, Press F12 to open development tools, go to network, input keywords "key" to filter, then you will get your encode key.
 3. open decode-key.html with Google Chrome or Firefox, Press F12 to open development tools and go to console, fill in this code and press enter, then you will get your decode key.
+
 ```
 decode("WiTJiRMUs1tWWiY0WTJOYW1NRGxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","123456") 
 ```
+
 In this fileds WiTJiRMUs1tWWiY0WTJOYW1NRGxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx is your encode key and 123455 your courseID.
+
 4. Copy the decode key and go to https://www.bejson.com/convert/ox2str/ , transfer your key to Hexadecimal。
 5. Fill the Hexadecimal into dl.sh with key value
 6. Back to the video page with development tools, use m3u8 to filter; then you will get the url and the Cookies, input the Cookies into dl.sh
