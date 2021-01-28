@@ -6,13 +6,11 @@ read -p "Please input url: " url
 read -p "Please input filename: " filename
 
 key=""
+Cookie=""
 DIR="Downloads"
 courseid=`echo ${url} | cut -d '=' -f 2 | cut -d '&' -f1`
 
 Refer="https://edu.51cto.com/center/course/lesson/index?id=${courseid}"
-
-Cookie=""
-
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
 
 cat > command.txt << EOF
@@ -58,5 +56,5 @@ openssl aes-128-ecb -d -in "${DIR}/encode.ts" -out "${DIR}/${filename}.ts" -K ${
 if [ -e ${DIR}/{filename}.ts ];then
 	echo "Download success!"
 else
-	echo "Download failed"
+	echo "Download failed!"
 fi
